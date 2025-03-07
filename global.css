@@ -1,0 +1,32 @@
+*,
+::before,
+::after { 
+	box-sizing: border-box;
+	border-width: 0;
+	border-style: solid;
+	border-color: #b1bed1;
+	font-size: 1rem; 
+	margin: 0;
+	padding: 0;
+	font-family: "Raleway", serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+}
+
+:root {
+	color-scheme: light dark;
+    --bg-color: light-dark(#ffffff, #000000);
+	--primary-color: light-dark(#54a58a, #2b8370);
+    --contact-border-color: light-dark(#d2fff0, #55ccb2);
+    --contact-list-color: light-dark(#33745e, #54c5ac);
+    --btn-color: light-dark(#77e4c0, #08b690); 
+    --btn-color-dark: light-dark(#306553, #005b49); 
+    --placeholder-color: light-dark(#7dd1b5, #9ce4d5);
+    --text-placeholder:  light-dark(#ffffff, #10402a);
+    --text-color: light-dark(#ffffff, #ffffff);
+    --text-btn-color: light-dark(#000, #ffffff);
+    --error-color-text: light-dark(#bb0606, #ff6b6b);
+    --error-color-text-dark: light-dark(#e70505, #ad3636);
+}
+
