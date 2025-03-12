@@ -124,7 +124,7 @@ body {
 	height: 2rem;
 	width: 2rem;
 	background-color: var(--contact-list-color);
-	border: 1px solid var(--btn-color);
+	border: 1px solid var(--contact-list-color);
 	color: var(--text-color);
 	border-radius: 0.375rem;
 	padding: 0.5rem;
