@@ -132,8 +132,8 @@ body {
 }
 
 .edit-contact-btn:hover {
-    background-color: var(--btn-color-dark);
-	border: 1px solid var(--btn-color-dark);
+    background-color: var(--btn-dark);
+	border: 1px solid var(--btn-dark);
 	color: var(--text-color);
 }
 
