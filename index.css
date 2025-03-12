@@ -93,7 +93,7 @@ body {
     background-color: var(--contact-list-color);
 	list-style: none;
 	width: 100%;
-	height: 50vh;
+	height: 40vh;
 	overflow-y: auto;
 	margin-top: 1rem;
 	border-radius: 0.375rem;
