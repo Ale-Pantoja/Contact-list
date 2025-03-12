@@ -23,7 +23,6 @@ body {
 	background-color: var(--primary-color);
 	border-radius: 0.375rem;
 	border: 0.8rem solid var(--primary-color);
-	display: block;
 }
 
 .form-input-container {
