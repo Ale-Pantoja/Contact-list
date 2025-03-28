@@ -1,4 +1,4 @@
-# 📞 Lista de Contactos - Proyecto de Ejemplo
+# Lista de Contactos - Proyecto de Ejemplo
 
 ## 📖 Descripción
 
