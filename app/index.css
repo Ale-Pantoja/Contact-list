@@ -1,5 +1,5 @@
 #main-container {
-  height: 90vh;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   padding: 1rem;
@@ -33,7 +33,7 @@
 #name-input-form {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 0.5rem;
 }
 
 #main-form-icons-phone {
