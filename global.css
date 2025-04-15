@@ -23,6 +23,8 @@ body {
 	--bg-color: light-dark(white, black);
   --bg-light-color: light-dark(#c6d4f3, #1a1a1b);
 	--primary-color: light-dark(#3A59D1, #60B5FF);
+	--primary-color-dark: light-dark(#283f9b, #2b75b6);
 	--primary-hover-color: light-dark(#163bce, #1c79ca);
   --text-color: light-dark(black, white);
-}
+  --input-color: light-dark(#8191ad ,#31363F);
+};
