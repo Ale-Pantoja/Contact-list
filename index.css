@@ -1,10 +1,13 @@
 body {
   padding-top: 4rem;
+  background-color: var(--bg-color);
 }
 
-#logo {
-  width: 2rem; 
-  height: 2rem;
+/* Barra de navegacion */
+#nav-logo {
+  width: 2.5rem; 
+  height: 2.5rem;
+  color: var(--text-color);
 }
 
 #bars-icon {
@@ -14,12 +17,13 @@ body {
 
 #nav {
   padding: 0 1rem;
-  background-color: #4338ca;
-  color: white;
+  background-color: var(--bg-color);
+  color: var(--text-color);
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
+  border-bottom: 2px solid var(--bg-light-color);
 }
 
 #nav-container {
@@ -45,6 +49,7 @@ body {
 }
 
 #title {
+  color: var(--text-color);
   font-weight: 500;
   font-size: 1.2rem;
 }
@@ -56,19 +61,24 @@ body {
   padding: 0.3rem;
   border-radius: 0.375rem;
   background-color: white;
-  color: #4338ca;
+  color: var(--primary-color);
 }
 
 .nav-link {
+  font-size: 1.2rem;
   display: none;
   color: white;
   text-decoration: none;
+  transition: all 0.5s ease-in-out;
 }
 
 .nav-link:hover {
+  font-size: 1.3rem;
   text-decoration: underline;
+  color: var(--primary-color);
 }
 
+/* Contenido principal */
 #main-container {
   display: flex;
   flex-direction: column;
@@ -81,8 +91,9 @@ body {
 }
 
 #main-title {
-  color: #4338ca;
+  color: var(--primary-color);
   font-size: 3rem;
+  margin: 2rem;
 }
 
 #main-desc-container {
@@ -96,7 +107,7 @@ body {
 }
 
 #desc-link {
-  background-color: #4338ca;
+  background-color: var(--primary-color);
   padding: 1rem 2rem;
   color: white;
   text-decoration: none;
@@ -105,11 +116,12 @@ body {
   font-weight: 500;
   font-size: 1.2rem;
   border-radius: 0.375rem;
+  transition: all 0.5s ease-in;
 }
 
 #desc-link:hover {
-  background-color: #2d2586;
-  transition: all 0.2s ease-in;
+  background-color: var(--primary-hover-color);
+  box-shadow: 0.5px 0.5px 20px 0.5px var(--primary-color);
 }
 
 @media (min-width: 768px) {

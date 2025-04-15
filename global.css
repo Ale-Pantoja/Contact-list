@@ -12,7 +12,17 @@ body, h2, p, h1 {
 }
 
 body {
-  font-family: "Inter", sans-serif;
+  font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+}
+
+/* Variables de colores y Temas*/
+:root {
+	color-scheme: light dark;
+	--bg-color: light-dark(white, black);
+  --bg-light-color: light-dark(#c6d4f3, #1a1a1b);
+	--primary-color: light-dark(#3A59D1, #60B5FF);
+	--primary-hover-color: light-dark(#163bce, #1c79ca);
+  --text-color: light-dark(black, white);
 }
