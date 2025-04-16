@@ -104,6 +104,7 @@ body {
 
 #desc-text {
   text-align: justify;
+  font-size: 1rem;
 }
 
 #desc-link {
