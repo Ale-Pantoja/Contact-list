@@ -175,17 +175,6 @@
   display: block;
 }
 
-/* Footer */
-
-footer {
-  bottom: 100%;
-	margin: 0.5rem;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-  flex-direction: column;
-}
-
 #btn-div {
   margin: 0.5rem;
   align-items: center;
@@ -203,6 +192,18 @@ footer {
   height: 2.2rem;
   width: 2.2rem;
 }
+
+/* Footer */
+
+footer {
+  bottom: 100%;
+	margin: 0.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  flex-direction: column;
+}
+
 
 #footer-div {
   display: flex;
