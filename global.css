@@ -22,7 +22,7 @@ body {
 :root {
 	color-scheme: light dark;
 	--bg-color: light-dark(white, black);
-  --bg-light-color: light-dark(#b8c0d3, #1a1a1b);
+  --bg-light-color: light-dark(#d4ddf1, #1a1a1b);
 	--primary-color: light-dark(#114dcf, #60B5FF);
 	--primary-color-dark: light-dark(#447fff, #2b75b6);
 	--primary-hover-color: light-dark(#163bce, #1c79ca);
