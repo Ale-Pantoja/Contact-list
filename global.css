@@ -22,12 +22,12 @@ body {
 :root {
 	color-scheme: light dark;
 	--bg-color: light-dark(white, black);
-  --bg-light-color: light-dark(#c6d4f3, #1a1a1b);
-	--primary-color: light-dark(#3A59D1, #60B5FF);
-	--primary-color-dark: light-dark(#283f9b, #2b75b6);
+  --bg-light-color: light-dark(#b8c0d3, #1a1a1b);
+	--primary-color: light-dark(#114dcf, #60B5FF);
+	--primary-color-dark: light-dark(#447fff, #2b75b6);
 	--primary-hover-color: light-dark(#163bce, #1c79ca);
   --primary-box-color: light-dark(#163bce, #092c4b);
   --text-color: light-dark(black, white);
-  --input-border-color: light-dark(#5f6d86, #474d58);
-  --input-color: light-dark(#8191ad ,#31363F);
+  --input-border-color: light-dark(#94a8ca, #616875);
+  --input-color: light-dark(#c6d2eb ,#31363F);
 };
