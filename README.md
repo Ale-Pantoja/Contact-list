@@ -23,4 +23,4 @@ El repositorio contiene los siguientes archivos:
 
 ## ⚙️ Estado del proyecto
 
-Este proyecto es una tiene funcionalidades dinámicas. Puede ser utilizado como un ejemplo básico de estructura y estilos para una lista de contactos, ademas de .
+Este proyecto es una tiene funcionalidades dinámicas. Puede ser utilizado como un ejemplo básico de estructura y estilos para una lista de contactos.
